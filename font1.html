@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font3.css">
+    <script defer src="font2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="firstname">Firstname</label>
+                <input id="firstname" name="firstname" type="text">
+                <div class="error"></div>
+            </div><br>
+            <div class="input-control">
+                <label for="lastname">Lastname</label>
+                <input id="lastname" name="lastname" type="text">
+                <div class="error"></div>
+            </div><br>
+            <div class="input-control-gender">
+                <label for="">Gender :</label>
+                <input id="gender" type="radio" name="gender" value="male"> Male
+                <input id="gender" type="radio" name="gender" value="female"> Female
+                <div class="error"></div>
+            </div><br><br>
+            <div class="input-control">
+                <label for="DOB">Date of Birth :</label>
+                <input id="DOB" type="date" name="DOB">
+                <div class="error"></div>
+            </div><br>
+            <div class="input-control">
+                <label for="mobile">Mobile number</label>
+                <input id="mobile" name="mobile" type="number">
+                <div class="error"></div>
+            </div><br>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div><br>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div><br>
+            <div class="input-control">
+                <label for="password2">Re-Enter Password</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+            </div><br>
+            <div class="input-control">
+                <label for="address">Address</label>
+                <textarea id="address" cols="10" rows="5"></textarea>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>
